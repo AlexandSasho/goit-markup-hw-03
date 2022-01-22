@@ -9,6 +9,28 @@
   --team-background-color: #f5f4fa;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--header-text-color);
@@ -22,7 +44,16 @@ body {
 a {
   text-decoration: none;
 }
-s .visually-hidden {
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -43,6 +74,10 @@ s .visually-hidden {
 }
 /* header */
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .header-logo {
   color: #212121;
 }
@@ -83,6 +118,8 @@ s .visually-hidden {
 }
 /* title */
 .title {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--title-back-color);
 }
 
@@ -93,6 +130,7 @@ s .visually-hidden {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
   color: var(--header-text-color);
 }
 
@@ -110,6 +148,10 @@ s .visually-hidden {
 }
 
 /* about */
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .about-h3 {
   font-weight: bold;
@@ -128,6 +170,9 @@ s .visually-hidden {
   color: var(--header-link-color);
 }
 /* work */
+.work {
+  padding-bottom: 94px;
+}
 
 .work-title {
   font-weight: bold;
@@ -135,6 +180,7 @@ s .visually-hidden {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
   color: var(--text-color);
 }
 
@@ -146,10 +192,13 @@ s .visually-hidden {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
   color: var(--text-color);
 }
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--team-background-color);
 }
 .team-item-name {
@@ -189,6 +238,10 @@ s .visually-hidden {
   color: var(--accent-color);
 }
 
+.footer-adress {
+  margin-top: 20px;
+}
+
 .adress-city {
   font-weight: normal;
   font-size: 14px;
@@ -211,6 +264,10 @@ s .visually-hidden {
 
 /* portfolio */
 
+.header-portfolio {
+  padding-top: 24px;
+}
+
 .header-link-portfolio {
   font-weight: 500;
   font-size: 14px;
@@ -219,6 +276,15 @@ s .visually-hidden {
   color: var(--accent-color);
 }
 
+.main-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.button-filter {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 .h1-btn {
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -234,6 +300,10 @@ s .visually-hidden {
   color: var(--header-text-color);
 }
 
+.services {
+  padding-bottom: 94px;
+}
+
 .service-list-choice {
   font-size: 18px;
   line-height: 2;
@@ -246,4 +316,8 @@ s .visually-hidden {
   line-height: calc(30 / 16);
   vertical-align: top;
   color: var(--header-link-color);
+}
+
+.adress-list {
+  margin-top: 20px;
 }
