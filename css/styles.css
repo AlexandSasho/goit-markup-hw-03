@@ -110,8 +110,6 @@ a {
   color: var(--accent-color);
 }
 
-
-
 .header-list {
   display: flex;
   margin-left: 93px;
@@ -382,6 +380,10 @@ a {
 .portfolio-nav {
   display: flex;
   align-items: center;
+}
+
+.header-list-portfolio .current {
+  color: var(--accent-color);
 }
 
 .header-link-portfolio {
